@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import './ActiveUserChart.css';
+import './RevenueChart.css';
 import {
   AreaChart,
   Area,
@@ -13,39 +13,39 @@ import {
 const data = [
   {
     month: 'Jan',
-    users: 2000,
+    revenue: 2000,
   },
   {
     month: 'Feb',
-    users: 3000,
+    revenue: 3000,
   },
   {
     month: 'Mar',
-    users: 2000,
+    revenue: 2000,
   },
   {
     month: 'Apr',
-    users: 2780,
+    revenue: 2780,
   },
   {
     month: 'May',
-    users: 1890,
+    revenue: 1890,
   },
   {
     month: 'Jun',
-    users: 2390,
+    revenue: 2390,
   },
   {
     month: 'Jul',
-    users: 2400,
+    revenue: 2400,
   },
 ];
 
-export default function ActiveUserChart() {
+export default function RevenueChart() {
   return (
     <div class="active-user-chart-border">
       <p>34000</p>
-      <h6>Total Active Users</h6>
+      <h6>Total Active revenue</h6>
       <AreaChart
         width={300}
         height={100}
@@ -59,17 +59,19 @@ export default function ActiveUserChart() {
       >
         <Tooltip />
         <defs>
-          <linearGradient id="colorusers" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="colorrevenue" x1="0" y1="0" x2="0" y2="1">
             <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
             <stop offset="95%" stopColor="#8884d8" stopOpacity={0} />
           </linearGradient>
         </defs>
+        
+        <YAxis dataKey="revenue" />
         <Area
           type="monotone"
-          dataKey="users"
+          dataKey="revenue"
           stroke="#8884d8"
           fillOpacity={1}
-          fill="url(#colorusers)"
+          fill="url(#colorrevenue)"
         />
       </AreaChart>
     </div>

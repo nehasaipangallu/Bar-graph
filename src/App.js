@@ -17,11 +17,11 @@ import Tab from './components/tab/Tab';
 export default function App() {
   return (
     <div>
-      <ActiveUserChart></ActiveUserChart>
-      {/* <HashRouter>
-        <Header />
-        <Tab />
-      </HashRouter> */}
+      chart
+      {/* <HashRouter> */}
+      <Header />
+      <Tab />
+      {/* </HashRouter> */}
     </div>
   );
 }
