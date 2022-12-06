@@ -55,8 +55,6 @@ const data = [
 ];
 
 export default class ActiveUserChart extends PureComponent {
-  static demoUrl = 'https://codesandbox.io/s/simple-area-chart-4ujxw';
-
   render() {
     return (
       <ResponsiveContainer width="100%" height="100%">

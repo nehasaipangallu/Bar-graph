@@ -3,6 +3,7 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fontsource/montserrat';
 import Header from './components/header/Header';
+import ActiveUserChart from './components/active-user-chart/ActiveUserChart';
 
 import {
   Route,
@@ -14,16 +15,13 @@ import {
 import Tab from './components/tab/Tab';
 
 export default function App() {
- 
-
   return (
     <div>
-      <HashRouter>
+      <ActiveUserChart></ActiveUserChart>
+      {/* <HashRouter>
         <Header />
         <Tab />
-      </HashRouter>
-
-      
+      </HashRouter> */}
     </div>
   );
 }
