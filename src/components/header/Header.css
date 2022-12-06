@@ -1,0 +1,17 @@
+.nav-bar-bg{
+  background-color: rgb(13, 7, 63) !important;
+  }
+  
+  .nav-text{
+    color:rgb(255, 253, 253);
+    font-family: 'Avenir';
+font-style: normal;
+font-size: 12px;
+  }
+ .cont-bg{
+   border-bottom: 1px dotted;
+   border-width: 100%;
+ }
+ .body{
+   background-color: black;
+ }

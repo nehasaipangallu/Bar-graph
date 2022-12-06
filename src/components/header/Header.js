@@ -1,17 +1,18 @@
 import React from 'react';
+import './Header.css'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+
 
 export  default function Header(){
   return(
-    <Container>
-    <Navbar expand="lg" variant="light" bg="light">
-      <Container>
-        <Navbar.Brand href="#" className="nav-text"> Overview</Navbar.Brand>
-        <Navbar.Brand href="#" className="nav-text"> Cloudwatch</Navbar.Brand>
-        <Navbar.Brand href="#" className="nav-text">  optimization</Navbar.Brand>
-      </Container>
-    </Navbar>
-  </Container>
+    <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home" className="nav-text">Dashboard</Navbar.Brand>
+          <Nav className="me-auto">
+          </Nav>
+        </Container>
+      </Navbar>
   )
 }
