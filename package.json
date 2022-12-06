@@ -7,12 +7,14 @@
     "@popperjs/core": "^2.11.6",
     "@types/react": "18.0.26",
     "bootstrap": "^5.2.3",
+    "prop-types": "^15.6.0",
     "react": "18.2.0",
     "react-bootstrap": "2.6.0",
     "react-bootstrap-sidebar-menu": "^2.0.3",
     "react-bootstrap/Tabs": "*",
     "react-dom": "18.2.0",
     "react-router-dom": "^6.4.4",
+    "recharts": "^2.1.16",
     "undefined": "0.1.0"
   },
   "scripts": {

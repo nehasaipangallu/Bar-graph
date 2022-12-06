@@ -1,8 +1,9 @@
-import React from "react";
-import "./style.css";
+import React, { useEffect, useState } from 'react';
+import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fontsource/montserrat';
 import Header from './components/header/Header';
+
 import {
   Route,
   Routes,
@@ -13,13 +14,16 @@ import {
 import Tab from './components/tab/Tab';
 
 export default function App() {
+ 
+
   return (
     <div>
-       <HashRouter>
+      <HashRouter>
         <Header />
         <Tab />
-        </HashRouter>
-     
+      </HashRouter>
+
+      
     </div>
   );
 }
