@@ -10,12 +10,14 @@ import {
   Switch,
   HashRouter,
 } from 'react-router-dom';
+import Tab from './components/tab/Tab';
 
 export default function App() {
   return (
     <div>
        <HashRouter>
         <Header />
+        <Tab />
         </HashRouter>
      
     </div>
