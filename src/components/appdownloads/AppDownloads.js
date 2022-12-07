@@ -47,9 +47,10 @@ export default function RevenueChart() {
     <div class="active-user-chart-border">
       <div className="img-txt">
     <span class="dot"></span>
-   
+   <span class="heading">
     <h6>45,000</h6>
       <h6>App Downloads</h6>
+      </span>
       </div>
       <div>
       <AreaChart
