@@ -17,7 +17,7 @@ import Tab from './components/tab/Tab';
 export default function App() {
   return (
     <div>
-      chart
+      {/* chart */}
       {/* <HashRouter> */}
       <Header />
       <Tab />

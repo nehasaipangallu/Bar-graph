@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import './RevenueChart.css';
+import './AppDownloads.css';
 import {
   AreaChart,
   Area,
@@ -44,12 +44,11 @@ const data = [
 export default function RevenueChart() {
   return (
     <div class="active-user-chart-border">
-      <p>34000</p>
-      <h6>Inactive Users</h6>
+      <p>45,000</p>
+      <h6>App Downloads</h6>
       <AreaChart
-        width={
-          371.25}
-        height={70.98}
+        width={371.69}
+        height={108}
         data={data}
         margin={{
           top: 10,
@@ -61,8 +60,8 @@ export default function RevenueChart() {
         <Tooltip />
         <defs>
           <linearGradient id="colorrevenue" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#FF5D8F" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#FF5D8F" stopOpacity={0} />
+            <stop offset="5%" stopColor="#F2ECFD" stopOpacity={0.8} />
+            <stop offset="95%" stopColor="#F2ECFD" stopOpacity={0} />
           </linearGradient>
         </defs>
         
@@ -70,7 +69,7 @@ export default function RevenueChart() {
         <Area
           type="monotone"
           dataKey="revenue"
-          stroke="#FF5D8F"
+          stroke="#F2ECFD"
           fillOpacity={1}
           fill="url(#colorrevenue)"
         />
