@@ -46,7 +46,9 @@ export default function ActiveUserChart() {
     <div className="d-inline-flex p-2 fle-box">
     <div class="active-user-chart-border">
       <div className="text-image">
-        <span class="dot"></span>
+        <span class="dot">
+        <span id="circle"></span>
+        </span>
       <h6>34,000</h6>
       <h6>Total Active Users</h6>
       </div>
