@@ -43,6 +43,7 @@ const data = [
 
 export default function ActiveUserChart() {
   return (
+    <div className="d-inline-flex p-2">
     <div class="active-user-chart-border">
       <p>34,000</p>
       <h6>Total Active Users</h6>
@@ -72,6 +73,7 @@ export default function ActiveUserChart() {
           fill="url(#colorusers)"
         />
       </AreaChart>
+    </div>
     </div>
   );
 }

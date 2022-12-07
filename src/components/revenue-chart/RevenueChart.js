@@ -43,6 +43,7 @@ const data = [
 
 export default function RevenueChart() {
   return (
+    <div className="d-inline-flex p-2">
     <div class="active-user-chart-border">
       <p>34000</p>
       <h6>Inactive Users</h6>
@@ -75,6 +76,7 @@ export default function RevenueChart() {
           fill="url(#colorrevenue)"
         />
       </AreaChart>
+    </div>
     </div>
   );
 }
