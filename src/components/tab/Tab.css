@@ -1,17 +1,13 @@
 .tabs {
-  background-image: linear-gradient(to right, #333 60%, lightgray 50%);
-    background-position: top;
-    background-size: 10px 1px;
-    background-repeat: repeat-x;
-    border: none;
+  border: none;
 }
 
-.tab {
-  border-bottom: 1px dashed lightgray !important;
-  background-image: linear-gradient(to right, red 10%, #d4d422 30%, #1ab5b5);
-    background-position: bottom;
-    background-size: 30px 4px;
-    background-repeat: no-repeat;
+.tabs > .tab {
+  border: none;
+  background-image: linear-gradient(to right, #333 60%, lightgray 50%);
+  background-position: bottom;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
 }
 
 .tab > li {
@@ -23,7 +19,7 @@
   border: none;
 }
 .tab > li > button {
-  border: none;
+  border: none !important;
   color: white;
 }
 .tab > li > button:hover {
@@ -41,10 +37,20 @@
   border-color: transparent !important;
 }
 
-.tab > li > .active {
+.tab > li > button.active {
   color: white !important;
   background: transparent !important;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   border: none !important;
+  background-image: linear-gradient(
+    270.06deg,
+    #00a9fa -1.29%,
+    #00c67b 26.02%,
+    #ffc44c 67.2%,
+    #ff495d 101.56%
+  ) !important;
+  background-position: bottom !important;
+  background-size: 30px 4px !important;
+  background-repeat: no-repeat !important;
 }
