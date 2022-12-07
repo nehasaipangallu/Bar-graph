@@ -4,6 +4,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import ActiveUserChart from '../active-user-chart/ActiveUserChart';
 import RevenueChart from '../revenue-chart/RevenueChart';
 import AppDownloads from '../appdownloads/AppDownloads';
+import SubscriptionAnalytics from '../subscription-analytics/SubscriptionAnalytics'
 import './Tab.css';
 
 export default function Tab() {
@@ -18,6 +19,7 @@ export default function Tab() {
           <ActiveUserChart></ActiveUserChart>
           <RevenueChart></RevenueChart>
           <AppDownloads></AppDownloads>
+          <SubscriptionAnalytics></SubscriptionAnalytics>
         </Tab>
         <Tab eventKey="cloudwatch" title="Cloudwatch"></Tab>
         <Tab eventKey="optimization" title="Optimization"></Tab>
