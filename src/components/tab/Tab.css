@@ -12,7 +12,7 @@
 
 .tab > li {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .tab > li:hover {
@@ -40,7 +40,7 @@
 .tab > li > button.active {
   color: white !important;
   background: transparent !important;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   border: none !important;
   background-image: linear-gradient(

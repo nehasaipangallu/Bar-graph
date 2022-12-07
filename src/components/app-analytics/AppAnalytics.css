@@ -1,0 +1,8 @@
+.app-analytics .progress {
+  background-color: white;
+  height: 5px;
+  color: white;
+}
+.app-analytics .progress > .progress-bar {
+  background: #7467f0;
+}
