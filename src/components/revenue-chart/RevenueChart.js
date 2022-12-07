@@ -45,8 +45,11 @@ export default function RevenueChart() {
   return (
     <div className="d-inline-flex p-2">
     <div class="active-user-chart-border">
-      <p>34000</p>
+      <div className="text-img">
+        <span class="dot"></span>
+      <h6>34000</h6>
       <h6>Inactive Users</h6>
+      </div>
       <AreaChart
         width={
           371.25}

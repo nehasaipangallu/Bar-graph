@@ -8,7 +8,7 @@
  
 }
 .area-chart {
-  margin-top: 130px;
+  margin-top: 70px;
 }
 
 body{
@@ -16,4 +16,8 @@ body{
 }
 h6{
   color: white;
+}
+.text-image{
+margin-top: 20px;
+  margin-left:30px ;
 }

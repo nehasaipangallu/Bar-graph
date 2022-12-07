@@ -45,8 +45,12 @@ export default function ActiveUserChart() {
   return (
     <div className="d-inline-flex p-2">
     <div class="active-user-chart-border">
-      <p>34,000</p>
+      <div className="text-image">
+        <span class="dot"></span>
+      <h6>34,000</h6>
       <h6>Total Active Users</h6>
+      </div>
+      <div>
       <AreaChart
         width={371.69}
         height={108}
@@ -74,6 +78,7 @@ export default function ActiveUserChart() {
           fill="url(#colorusers)"
         />
       </AreaChart>
+      </div>
     </div>
     </div>
   );
