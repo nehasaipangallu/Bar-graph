@@ -43,7 +43,7 @@ const data = [
 
 export default function ActiveUserChart() {
   return (
-    <div className="d-inline-flex p-2 fle-box">
+    <div className="col-3">
     <div class="active-user-chart-border">
       <div className="text-image">
         <div class="dot">

@@ -43,46 +43,47 @@ const data = [
 
 export default function RevenueChart() {
   return (
-    <div className="d-inline-flex p-2">
-    <div class="active-user-chart-border">
-      <div className="img-txt">
-    <div class="dot"></div>
-   <span class="heading">
-    <h6>45,000</h6>
-      <h6>App Downloads</h6>
-      </span>
+    <div className="col-3">
+      <div class="active-user-chart-border">
+        <div className="img-txt">
+          <div class="dot"></div>
+          <span class="heading">
+            <h6>45,000</h6>
+            <h6>App Downloads</h6>
+          </span>
+        </div>
+        <div>
+          <AreaChart
+            width={371.69}
+            height={108}
+            data={data}
+            margin={{
+              top: 10,
+              right: 30,
+              left: 0,
+              bottom: 0,
+            }}
+            className="area-chart-down"
+          >
+            <Tooltip />
+            <defs>
+              <linearGradient id="colorrevenue" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#F2ECFD" stopOpacity={0.8} />
+                <stop offset="95%" stopColor="#F2ECFD" stopOpacity={0} />
+              </linearGradient>
+            </defs>
+
+            {/* <YAxis dataKey="revenue" /> */}
+            <Area
+              type="monotone"
+              dataKey="revenue"
+              stroke="#F2ECFD"
+              fillOpacity={1}
+              fill="url(#colorrevenue)"
+            />
+          </AreaChart>
+        </div>
       </div>
-      <div>
-      <AreaChart
-        width={371.69}
-        height={108}
-        data={data}
-        margin={{
-          top: 10,
-          right: 30,
-          left: 0,
-          bottom: 0,
-        }} className="area-chart-down"
-      >
-        <Tooltip />
-        <defs>
-          <linearGradient id="colorrevenue" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#F2ECFD" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#F2ECFD" stopOpacity={0} />
-          </linearGradient>
-        </defs>
-        
-        {/* <YAxis dataKey="revenue" /> */}
-        <Area
-          type="monotone"
-          dataKey="revenue"
-          stroke="#F2ECFD"
-          fillOpacity={1}
-          fill="url(#colorrevenue)"
-        />
-      </AreaChart>
-      </div>
-    </div>
     </div>
   );
 }

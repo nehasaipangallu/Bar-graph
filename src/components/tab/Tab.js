@@ -18,12 +18,18 @@ export default function Tab() {
         className="mb-3 tab "
       >
         <Tab eventKey="overview" title="Overview" className="tab-item">
-          <ActiveUserChart></ActiveUserChart>
-          <InactiveUsersChart></InactiveUsersChart>
-          <AppDownloads></AppDownloads>
-          <SubscriptionAnalytics></SubscriptionAnalytics>
-          <AppAnalytics></AppAnalytics>
-          {/* <Revenue></Revenue> */}
+          <div class="row overflow-hidden">
+            <div class="row overflow-hidden">
+              <ActiveUserChart></ActiveUserChart>
+              <InactiveUsersChart></InactiveUsersChart>
+              <AppDownloads></AppDownloads>
+              <AppAnalytics></AppAnalytics>
+            </div>
+            <div class="row overflow-hidden">
+              <SubscriptionAnalytics></SubscriptionAnalytics>
+            </div>
+            {/* <Revenue></Revenue> */}
+          </div>
         </Tab>
         <Tab eventKey="cloudwatch" title="Cloudwatch"></Tab>
         <Tab eventKey="optimization" title="Optimization"></Tab>
