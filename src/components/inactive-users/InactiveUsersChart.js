@@ -43,7 +43,7 @@ const data = [
 
 export default function InactiveUsersChart() {
   return (
-    <div className="col-2">
+    <div className="col-3">
       <div class="active-user-chart-border">
         <div className="text-img">
           <span class="dot"></span>
