@@ -45,8 +45,12 @@ export default function RevenueChart() {
   return (
     <div className="d-inline-flex p-2">
     <div class="active-user-chart-border">
-      <p>45,000</p>
+      <div className="img-txt">
+    <span class="dot"></span>
+    <h6>45,000</h6>
       <h6>App Downloads</h6>
+      </div>
+      <div>
       <AreaChart
         width={371.69}
         height={108}
@@ -56,7 +60,7 @@ export default function RevenueChart() {
           right: 30,
           left: 0,
           bottom: 0,
-        }}
+        }} className="area-chart-down"
       >
         <Tooltip />
         <defs>
@@ -75,6 +79,7 @@ export default function RevenueChart() {
           fill="url(#colorrevenue)"
         />
       </AreaChart>
+      </div>
     </div>
     </div>
   );

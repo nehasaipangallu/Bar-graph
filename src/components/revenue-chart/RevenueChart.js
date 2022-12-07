@@ -57,7 +57,7 @@ export default function RevenueChart() {
           right: 30,
           left: 0,
           bottom: 0,
-        }}
+        }}  className="area-chart-inacive"
       >
         <Tooltip />
         <defs>

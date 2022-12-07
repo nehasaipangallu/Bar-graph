@@ -3,8 +3,12 @@
   height:  300px;
   color: black;
   border: 1px solid #979797;
-  border-radius: 12px;
+  border-radius: 8px;
   background-color: #0F1642;
+ 
+}
+.area-chart {
+  margin-top: 130px;
 }
 
 body{

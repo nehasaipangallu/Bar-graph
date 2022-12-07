@@ -52,11 +52,12 @@ export default function ActiveUserChart() {
         height={108}
         data={data}
         margin={{
-          top: 10,
+          top: 0,
           right: 30,
           left: 0,
           bottom: 0,
-        }}
+        }} className="area-chart"
+    
       >
         <Tooltip />
         <defs>

@@ -1,0 +1,18 @@
+.area-chart-down{
+ margin-top:60px ;
+}
+
+.dot {
+  height: 62px;
+  width:62px;
+  background-color: #EAF7FE;
+  border-radius: 50%; 
+  display: inline-block;
+ 
+}
+
+.img-txt{
+margin-top: 20px;
+margin-left:30px ;
+}
+
