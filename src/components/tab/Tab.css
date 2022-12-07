@@ -1,0 +1,42 @@
+.tabs {
+  height: auto;
+}
+
+.tab {
+  border-bottom: 1px dashed lightgray !important;
+}
+
+.tab > li {
+  color: white;
+  font-size: 12px;
+}
+
+.tab > li:hover {
+  border: none;
+}
+.tab > li > button {
+  border: none;
+  color: white;
+}
+.tab > li > button:hover {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.tab > li > button:focus {
+  border: none !important;
+  border-color: transparent !important;
+}
+.tab > li > button:focus-visible {
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.tab > li > .active {
+  color: white !important;
+  background: transparent !important;
+  font-size: 13px;
+  font-weight: 600;
+  border: none !important;
+}
