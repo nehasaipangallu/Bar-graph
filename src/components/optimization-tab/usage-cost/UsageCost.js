@@ -75,7 +75,7 @@ export default function UsageCost() {
           <CartesianGrid strokeDasharray="5 6" />
           <XAxis dataKey="name" />
           <YAxis />
-          <Tooltip />
+
           <Legend />
           <Bar dataKey="pv" fill="#8884d8" />
           <Bar dataKey="uv" fill="#82ca9d" />
