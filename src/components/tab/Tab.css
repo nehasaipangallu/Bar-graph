@@ -8,6 +8,10 @@
 
 .tab {
   border-bottom: 1px dashed lightgray !important;
+  background-image: linear-gradient(to right, red 10%, #d4d422 30%, #1ab5b5);
+    background-position: bottom;
+    background-size: 30px 4px;
+    background-repeat: no-repeat;
 }
 
 .tab > li {
