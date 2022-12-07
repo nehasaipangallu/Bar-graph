@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import ActiveUserChart from '../active-user-chart/ActiveUserChart';
-import RevenueChart from '../revenue-chart/RevenueChart';
+import InactiveUsersChart from '../inactive-users/InactiveUsersChart';
 import AppDownloads from '../appdownloads/AppDownloads';
-import SubscriptionAnalytics from '../subscription-analytics/SubscriptionAnalytics'
+import SubscriptionAnalytics from '../subscription-analytics/SubscriptionAnalytics';
 import './Tab.css';
 
 export default function Tab() {
@@ -17,7 +17,7 @@ export default function Tab() {
       >
         <Tab eventKey="overview" title="Overview" className="tab-item">
           <ActiveUserChart></ActiveUserChart>
-          <RevenueChart></RevenueChart>
+          <InactiveUsersChart></InactiveUsersChart>
           <AppDownloads></AppDownloads>
           <SubscriptionAnalytics></SubscriptionAnalytics>
         </Tab>
