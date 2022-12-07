@@ -1,5 +1,9 @@
 .tabs {
-  height: auto;
+  background-image: linear-gradient(to right, #333 60%, lightgray 50%);
+    background-position: top;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    border: none;
 }
 
 .tab {

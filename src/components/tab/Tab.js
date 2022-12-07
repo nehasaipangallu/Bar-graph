@@ -5,6 +5,7 @@ import ActiveUserChart from '../active-user-chart/ActiveUserChart';
 import InactiveUsersChart from '../inactive-users/InactiveUsersChart';
 import AppDownloads from '../appdownloads/AppDownloads';
 import SubscriptionAnalytics from '../subscription-analytics/SubscriptionAnalytics';
+import Revenue from '../revenue/Revenue';
 import './Tab.css';
 
 export default function Tab() {
@@ -20,6 +21,7 @@ export default function Tab() {
           <InactiveUsersChart></InactiveUsersChart>
           <AppDownloads></AppDownloads>
           <SubscriptionAnalytics></SubscriptionAnalytics>
+          {/* <Revenue></Revenue> */}
         </Tab>
         <Tab eventKey="cloudwatch" title="Cloudwatch"></Tab>
         <Tab eventKey="optimization" title="Optimization"></Tab>

@@ -9,6 +9,7 @@
   border-radius: 50%;
   display: inline-block;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .img-txt {
@@ -16,7 +17,13 @@
   margin-left: 30px;
 }
 
-#circle{
+.circle{
   border-radius: 50%; 
-  
-}
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #eaf7fe;
+  margin-top: 20px;
+  margin-left: 23px;
+ border:2px solid #00A9FA;
+ }
