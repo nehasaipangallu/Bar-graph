@@ -8,7 +8,7 @@
 }
 .tabs .overview-section {
   /* height: 45%; */
-  height: 316px;
+  height: 330px;
   justify-content: space-evenly;
 }
 /* bootstrap class overrides */

@@ -19,7 +19,7 @@ export default function Tab() {
         className="mb-3 tab "
       >
         <Tab eventKey="overview" title="Overview" className="tab-item">
-          <div class="tabs-item row overflow-hidden align-content-start">
+          <div class="tabs-item d-flex flex-column overflow-hidden align-content-start">
             <div class="overview-section row overflow-hidden">
               <ActiveUserChart></ActiveUserChart>
               <InactiveUsersChart></InactiveUsersChart>
