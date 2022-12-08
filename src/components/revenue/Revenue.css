@@ -11,7 +11,9 @@
 .revenue > .recharts-responsive-container .recharts-cartesian-grid-vertical {
   display: none;
 }
-
+.revenue .recharts-cartesian-axis-line {
+  display: none;
+}
 .revenue .revenue-heading {
   margin-bottom: 16px;
 }
@@ -23,11 +25,13 @@
   font-size: 18px;
   color: #28c76f;
   margin-right: 45px;
+  padding-top: 8px;
 }
 
 .revenue .last-month {
   font-size: 12px;
 }
 .revenue .last-month > h6 {
+  padding-top: 8px;
   font-size: 18px;
 }
