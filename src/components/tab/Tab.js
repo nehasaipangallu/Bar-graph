@@ -28,7 +28,7 @@ export default function Tab() {
               <AppAnalytics></AppAnalytics>
             </div>
             <div class="row overflow-hidden">
-              {/* <Revenue></Revenue> */}
+              <Revenue></Revenue>
               <SubscriptionAnalytics></SubscriptionAnalytics>
             </div>
             {/* <Revenue></Revenue> */}
