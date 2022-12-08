@@ -18,7 +18,6 @@ export default function Tab() {
         id="uncontrolled-tab-example"
         className="mb-3 tab "
       >
-       
         <Tab eventKey="overview" title="Overview" className="tab-item">
           <div class="row overflow-hidden">
             <div class="row overflow-hidden">
@@ -41,7 +40,6 @@ export default function Tab() {
           </div>
         </Tab>
       </Tabs>
-      
     </div>
   );
 }
