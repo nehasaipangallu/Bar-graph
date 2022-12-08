@@ -43,7 +43,7 @@ const data = [
 
 export default function ActiveUserChart() {
   return (
-    <div  class="col-lg-3 col-md-6 col-sm-12 user-active">
+    <div  class="col-lg-2 col-md-4 col-sm-8 user-active">
     <div class="active-user-chart-border">
       <div className="text-image">
         <div class="dot">
@@ -54,7 +54,7 @@ export default function ActiveUserChart() {
       </div>
       <div>
       <AreaChart
-        width={371.69}
+        width={307.8}
         height={108}
         data={data}
         margin={{

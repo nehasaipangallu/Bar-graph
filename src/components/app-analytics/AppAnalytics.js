@@ -5,7 +5,7 @@ import './AppAnalytics.css';
 export default function AppAnalytics() {
   return (
     
-    <div  class="col-lg-3 col-md-6 col-sm-12 analytics-app">
+    <div  class="col-lg-2 col-md-4 col-sm-8 analytics-app">
     <div class="app-analytics ">
       <h5>App OS Analytics</h5>
 

@@ -1,14 +1,15 @@
 .active-user-chart-border {
-  width: 343px;
-  height: 300px;
+  width: 280px;
+  height: 250px;
   color: black;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
- padding-right: 5px;;
+ padding-right: 10px;
+ justify-content: space-between;
 }
 .area-chart {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 body {
@@ -22,6 +23,6 @@ h6 {
   margin-left: 30px;
 }
 .user-active{
- margin: 10px;
+ margin: 20px;
 }
 

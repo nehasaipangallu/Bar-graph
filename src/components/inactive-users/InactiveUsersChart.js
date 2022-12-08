@@ -43,7 +43,7 @@ const data = [
 
 export default function InactiveUsersChart() {
   return (
-    <div  class="col-lg-3 col-md-6 col-sm-12 user-inactive">
+    <div  class="col-lg-2 col-md-4 col-sm-8 user-inactive">
       <div class="active-user-chart-border">
         <div className="text-img">
           <span class="dot">
@@ -53,8 +53,8 @@ export default function InactiveUsersChart() {
           <h6>Inactive Users</h6>
         </div>
         <AreaChart
-          width={371.25}
-          height={70.98}
+          width={307.8}
+          height={50.98}
           data={data}
           margin={{
             top: 10,

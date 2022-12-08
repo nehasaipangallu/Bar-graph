@@ -17,15 +17,15 @@ const data = [
   },
   {
     month: 'Feb',
-    revenue: 3000,
+    revenue: 4000,
   },
   {
     month: 'Mar',
-    revenue: 2000,
+    revenue: 3000,
   },
   {
     month: 'Apr',
-    revenue: 2780,
+    revenue: 4780,
   },
   {
     month: 'May',
@@ -41,9 +41,9 @@ const data = [
   },
 ];
 
-export default function RevenueChart() {
+export default function AppDownloads() {
   return (
-    <div  class="col-lg-3 col-md-6 col-sm-12 download-app ">
+    <div  class="col-lg-2 col-md-4 col-sm-8 download-app ">
       <div class="active-user-chart-border">
         <div className="img-txt">
           <div class="dot">
@@ -56,8 +56,8 @@ export default function RevenueChart() {
         </div>
         <div>
           <AreaChart
-            width={371.69}
-            height={108}
+            width={307.8}
+            height={80}
             data={data}
             margin={{
               top: 10,

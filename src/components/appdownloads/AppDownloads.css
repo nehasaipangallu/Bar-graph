@@ -1,10 +1,10 @@
 .area-chart-down {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .dot {
-  height: 62px;
-  width: 62px;
+  height: 52px;
+  width: 52px;
   background-color: #eaf7fe;
   border-radius: 50%;
   display: inline-block;
@@ -29,5 +29,5 @@
  }
 
  .download-app{
-margin:10px;
+  margin: 20px;
  }
