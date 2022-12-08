@@ -1,64 +1,30 @@
-import React, { Component } from 'react';
-// import CanvasJSReact from './canvasjs.react';
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-import './Revenue.css';
+import React from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid} from 'recharts';
 
-const options = {
-  animationEnabled: true,	
-  title:{
-    text: "Number of New Customers"
-  },
-  axisY : {
-    title: "Number of Customers"
-  },
-  toolTip: {
-    shared: true
-  },
-  data: [{
-    type: "spline",
-    name: "2016",
-    showInLegend: true,
-    dataPoints: [
-      { y: 155, label: "Jan" },
-      { y: 150, label: "Feb" },
-      { y: 152, label: "Mar" },
-      { y: 148, label: "Apr" },
-      { y: 142, label: "May" },
-      { y: 150, label: "Jun" },
-      { y: 146, label: "Jul" },
-      { y: 149, label: "Aug" },
-      { y: 153, label: "Sept" },
-      { y: 158, label: "Oct" },
-      { y: 154, label: "Nov" },
-      { y: 150, label: "Dec" }
-    ]
-  },
-  {
-    type: "spline",
-    name: "2017",
-    showInLegend: true,
-    dataPoints: [
-      { y: 172, label: "Jan" },
-      { y: 173, label: "Feb" },
-      { y: 175, label: "Mar" },
-      { y: 172, label: "Apr" },
-      { y: 162, label: "May" },
-      { y: 165, label: "Jun" },
-      { y: 172, label: "Jul" },
-      { y: 168, label: "Aug" },
-      { y: 175, label: "Sept" },
-      { y: 170, label: "Oct" },
-      { y: 165, label: "Nov" },
-      { y: 169, label: "Dec" }
-    ]
-  }]
-}
-
+const data = [
+  {x:1, y:45.0,z:46.0 },
+  {x:5, y:47.0,z:48.0},
+  {x:9, y:44.9, z:45.5},
+  {x:13, y:47.5, z:46.5},
+  {x:17, y:45.5, z=44.5},
+  {x:21, y:48.0, z=46.5},
+  {x:26, y:46.5, z=45.0},
+  {x:30, y:48.5, z=47.0},
+ 
+]
 export default function Revenue(){
   return (
 		<div>
-			<CanvasJSChart options = {options} />
+		   <LineChart width={500} height={700} data={data}>
+       <CartesianGrid/>
+       <XAxis dataKey="x" />
+       <YAxis yAxisId="left-axis" />
+          <YAxis yAxisId="right-axis" orientation="right" />
+          <Line yAxisId="left-axis" type="monotone" dataKey="y" 
+          stroke="blue"/>
+          <Line yAxisId="right-axis" type="monotone" dataKey="z" 
+          stroke="red" />
+         </LineChart>
       </div>
 
   );
