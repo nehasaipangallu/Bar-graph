@@ -1,0 +1,8 @@
+.revenue {
+  height: 300px;
+  width: 500px;
+}
+
+.revenue > .recharts-responsive-container .recharts-cartesian-grid-vertical {
+  display: none;
+}
