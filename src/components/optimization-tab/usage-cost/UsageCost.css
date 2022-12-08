@@ -1,3 +1,11 @@
 .usage-cost {
-  height: 200px;
+  height: 45%;
+}
+
+.usage-cost > .recharts-responsive-container .recharts-cartesian-grid-vertical {
+  display: none;
+}
+
+.usage-cost .recharts-cartesian-axis-line {
+  display: none;
 }

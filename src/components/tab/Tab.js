@@ -30,12 +30,15 @@ export default function Tab() {
               <Revenue></Revenue>
               <SubscriptionAnalytics></SubscriptionAnalytics>
             </div>
-            {/* <Revenue></Revenue> */}
           </div>
         </Tab>
-        <Tab eventKey="cloudwatch" title="Cloudwatch"></Tab>
-        <Tab eventKey="optimization" title="Optimization">
-          <div class="row tabs-item">
+        <Tab
+          eventKey="cloudwatch"
+          title="Cloudwatch"
+          className="tab-item"
+        ></Tab>
+        <Tab eventKey="optimization" title="Optimization" className="tab-item">
+          <div class="d-flex flex-column tabs-item">
             <UsageCost></UsageCost>
           </div>
         </Tab>
