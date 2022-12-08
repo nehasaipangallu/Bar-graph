@@ -1,3 +1,8 @@
+.download-app {
+  width: 20%;
+  height: 300px;
+}
+
 .area-chart-down {
   margin-top: 30px;
 }
@@ -17,21 +22,17 @@
   margin-left: 30px;
 }
 
-.circle{
-  border-radius: 50%; 
+.circle {
+  border-radius: 50%;
   width: 10px;
   height: 10px;
   position: absolute;
   background-color: #eaf7fe;
   margin-top: 20px;
   margin-left: 23px;
- border:2px solid #00A9FA;
- }
+  border: 2px solid #00a9fa;
+}
 
- .download-app{
-  width:21%;
- }
- 
- .down-img{
-   padding: 12px;
- }
+.down-img {
+  padding: 12px;
+}

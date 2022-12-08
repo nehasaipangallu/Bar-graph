@@ -4,11 +4,8 @@ import './AppAnalytics.css';
 
 export default function AppAnalytics() {
   return (
-    
-    <div  class="col-lg-2 col-md-4 col-sm-8 analytics-app">
-    <div class="app-analytics ">
+    <div class="app-analytics col-lg-2 col-md-4 col-sm-8">
       <h5>App OS Analytics</h5>
-
       <div>
         <p>Apple iOS</p>
         <p>73%</p>
@@ -25,7 +22,6 @@ export default function AppAnalytics() {
         <p>19%</p>
         <ProgressBar now={8} />
       </div>
-    </div>
     </div>
   );
 }

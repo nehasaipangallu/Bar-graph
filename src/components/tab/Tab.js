@@ -19,14 +19,14 @@ export default function Tab() {
         className="mb-3 tab "
       >
         <Tab eventKey="overview" title="Overview" className="tab-item">
-          <div class="row overflow-hidden">
-            <div class="row overflow-hidden">
+          <div class="tabs-item row overflow-hidden">
+            <div class="overview-section row overflow-hidden">
               <ActiveUserChart></ActiveUserChart>
               <InactiveUsersChart></InactiveUsersChart>
               <AppDownloads></AppDownloads>
               <AppAnalytics></AppAnalytics>
             </div>
-            <div class="row overflow-hidden">
+            <div class="overview-section row overflow-hidden ">
               <Revenue></Revenue>
               <SubscriptionAnalytics></SubscriptionAnalytics>
             </div>
@@ -35,7 +35,7 @@ export default function Tab() {
         </Tab>
         <Tab eventKey="cloudwatch" title="Cloudwatch"></Tab>
         <Tab eventKey="optimization" title="Optimization">
-          <div class="row">
+          <div class="row tabs-item">
             <UsageCost></UsageCost>
           </div>
         </Tab>

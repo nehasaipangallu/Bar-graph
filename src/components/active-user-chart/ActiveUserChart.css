@@ -1,32 +1,27 @@
+.user-active {
+  width: 20%;
+  height: 300px;
+}
+
 .active-user-chart-border {
-  width: 280px;
-  height: 250px;
+  height: 100%;
+  width: 100%;
   color: black;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
- padding-right: 10px;
- justify-content: space-between;
+  padding-right: 10px;
+  justify-content: space-between;
 }
 .area-chart {
   margin-top: 20px;
 }
 
-body {
-  background-color: black;
-}
-h6 {
-  color: white;
-}
 .text-image {
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.user-active{
-width:21%;
-}
-
-.use-pic{
-  padding:10px;
+.use-pic {
+  padding: 10px;
 }
