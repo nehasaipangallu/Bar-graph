@@ -5,7 +5,7 @@
 .app-analytics .progress {
   background-color: white;
   height: 5px;
-  width: 450.44px;
+  width: 410.44px;
   color: white;
 }
 .app-analytics .progress > .progress-bar {
@@ -13,13 +13,14 @@
 }
 
 .analytics-app{
-  width: 490px;
+  width: 440px;
   height: 250px;
   color: black;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
- padding-right: 5px;
-  /* margin: 20px; */
- 
+ /* padding-right: 5px; */
+   /* margin: 20px;  */
+   margin-left:12px;
+
 }
