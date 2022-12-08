@@ -47,7 +47,7 @@ export default function AppDownloads() {
       <div class="active-user-chart-border">
         <div className="img-txt">
           <div class="dot">
-            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/shopping-cart.svg?raw=true" />
+            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/shopping-cart.svg?raw=true" className="down-img" />
           </div>
           <span class="heading">
             <h6>45,000</h6>

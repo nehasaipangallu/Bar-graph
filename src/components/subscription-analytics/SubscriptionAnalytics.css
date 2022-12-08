@@ -1,9 +1,12 @@
 .subscription-analytics {
-  color: white;
-  height: 400px;
+  width: 440px;
+  height: 320px;
+  color:white;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
+  margin-top: 10px;
+  margin-left: 3px;
 }
 
 .pie-chart {

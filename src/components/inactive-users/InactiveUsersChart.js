@@ -47,7 +47,7 @@ export default function InactiveUsersChart() {
       <div class="active-user-chart-border">
         <div className="text-img">
           <span class="dot">
-            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/inactive-user.svg?raw=true" />
+            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/inactive-user.svg?raw=true" className="in-img"/>
           </span>
           <h6>34000</h6>
           <h6>Inactive Users</h6>

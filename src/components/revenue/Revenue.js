@@ -100,7 +100,8 @@ const data2 = [
 ];
 export default function Revenue() {
   return (
-    <div class="revenue col-7">
+    // <div className="col-lg-10 col-md-6 col-sm-9 ">
+    <div class="revenue col-lg-10 col-md-6 col-sm-9">
       <h4>Revenue</h4>
       {/* <ResponsiveContainer width="100%" aspect={4}>
         <LineChart data={data} margin={{ right: 300 }}>
@@ -141,5 +142,6 @@ export default function Revenue() {
         </LineChart>
       </ResponsiveContainer>
     </div>
+    
   );
 }
