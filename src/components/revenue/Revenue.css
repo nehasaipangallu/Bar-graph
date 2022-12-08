@@ -1,12 +1,33 @@
 .revenue {
   color: white;
-  height: 300px;
+  height: 450px;
   width: 60%;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
+  padding: 24px;
 }
 
 .revenue > .recharts-responsive-container .recharts-cartesian-grid-vertical {
   display: none;
+}
+
+.revenue .revenue-heading {
+  margin-bottom: 16px;
+}
+
+.revenue .this-month {
+  font-size: 12px;
+}
+.revenue .this-month > h6 {
+  font-size: 18px;
+  color: #28c76f;
+  margin-right: 45px;
+}
+
+.revenue .last-month {
+  font-size: 12px;
+}
+.revenue .last-month > h6 {
+  font-size: 18px;
 }

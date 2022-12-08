@@ -100,22 +100,19 @@ const data2 = [
 ];
 export default function Revenue() {
   return (
-    // <div className="col-lg-10 col-md-6 col-sm-9 ">
     <div class="revenue col-lg-10 col-md-6 col-sm-9">
-      <h4>Revenue</h4>
-      {/* <ResponsiveContainer width="100%" aspect={4}>
-        <LineChart data={data} margin={{ right: 300 }}>
-          <CartesianGrid />
-          <XAxis></XAxis>
-          <YAxis dataKey="revenue" interval={'preserveStartEnd'} />
-          <Legend />
-          <Tooltip />
-          <Line dataKey="revenue" stroke="blue" />
-          <Line dataKey="actual" stroke="red" />
-        </LineChart>
-      </ResponsiveContainer> */}
-
-      <ResponsiveContainer width="100%" height="100%">
+      <h5 class="revenue-heading">Revenue</h5>
+      <div class="d-flex">
+        <p class="this-month">
+          This Month <br /> <h6>Rs. 86,574</h6>
+        </p>
+        <p class="last-month">
+          Last Month
+          <br />
+          <h6>Rs. 96,457</h6>
+        </p>
+      </div>
+      <ResponsiveContainer width="100%" height="70%">
         <LineChart
           width={500}
           height={300}
@@ -142,6 +139,5 @@ export default function Revenue() {
         </LineChart>
       </ResponsiveContainer>
     </div>
-    
   );
 }
