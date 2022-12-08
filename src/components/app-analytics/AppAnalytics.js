@@ -4,7 +4,9 @@ import './AppAnalytics.css';
 
 export default function AppAnalytics() {
   return (
-    <div class="app-analytics col-3">
+    
+    <div  class="col-lg-3 col-md-6 col-sm-12 analytics-app">
+    <div class="app-analytics ">
       <h5>App OS Analytics</h5>
 
       <div>
@@ -23,6 +25,7 @@ export default function AppAnalytics() {
         <p>19%</p>
         <ProgressBar now={8} />
       </div>
+    </div>
     </div>
   );
 }

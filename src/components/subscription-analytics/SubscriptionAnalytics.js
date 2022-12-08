@@ -11,9 +11,9 @@ const COLORS = ['#0088FE', '#FFBB28', '#FF8042'];
 
 export default function SubscriptionAnalytics() {
   return (
-    <div class="subscription-analytics col-2">
+    <div class="col-lg-3 col-md-6 col-sm-12 subscription-analytics">
       <h5>Subscription Analytics</h5>
-      <PieChart width={800} height={400}>
+      <PieChart width={800} height={400} className="pie-chart">
         <Pie
           data={data}
           cx={120}

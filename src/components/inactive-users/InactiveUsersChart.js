@@ -43,10 +43,12 @@ const data = [
 
 export default function InactiveUsersChart() {
   return (
-    <div className="col-3">
+    <div  class="col-lg-3 col-md-6 col-sm-12 user-inactive">
       <div class="active-user-chart-border">
         <div className="text-img">
-          <span class="dot"></span>
+          <span class="dot">
+            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/inactive-user.svg?raw=true" />
+          </span>
           <h6>34000</h6>
           <h6>Inactive Users</h6>
         </div>

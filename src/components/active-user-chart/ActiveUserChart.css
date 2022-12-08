@@ -5,6 +5,7 @@
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
+ padding-right: 5px;;
 }
 .area-chart {
   margin-top: 50px;
@@ -20,3 +21,7 @@ h6 {
   margin-top: 20px;
   margin-left: 30px;
 }
+.user-active{
+ margin: 10px;
+}
+

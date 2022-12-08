@@ -43,11 +43,11 @@ const data = [
 
 export default function ActiveUserChart() {
   return (
-    <div className="col-3">
+    <div  class="col-lg-3 col-md-6 col-sm-12 user-active">
     <div class="active-user-chart-border">
       <div className="text-image">
         <div class="dot">
-        <div class="circle"></div>
+       <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/active-user.svg?raw=true" className="use-pic" />
         </div>
       <h6>34,000</h6>
       <h6>Total Active Users</h6>

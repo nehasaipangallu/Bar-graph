@@ -43,10 +43,12 @@ const data = [
 
 export default function RevenueChart() {
   return (
-    <div className="col-3">
+    <div  class="col-lg-3 col-md-6 col-sm-12 download-app ">
       <div class="active-user-chart-border">
         <div className="img-txt">
-          <div class="dot"></div>
+          <div class="dot">
+            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/shopping-cart.svg?raw=true" />
+          </div>
           <span class="heading">
             <h6>45,000</h6>
             <h6>App Downloads</h6>
