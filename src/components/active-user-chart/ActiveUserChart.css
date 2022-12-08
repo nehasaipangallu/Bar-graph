@@ -10,11 +10,11 @@
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
-  padding-right: 10px;
+
   justify-content: space-between;
 }
 .area-chart {
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .text-image {

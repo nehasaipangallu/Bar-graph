@@ -43,11 +43,14 @@ const data = [
 
 export default function InactiveUsersChart() {
   return (
-    <div  class="col-lg-2 col-md-4 col-sm-8 user-inactive">
+    <div class="col-lg-2 col-md-4 col-sm-8 user-inactive">
       <div class="active-user-chart-border">
         <div className="text-img">
           <span class="dot">
-            <img src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/inactive-user.svg?raw=true" className="in-img"/>
+            <img
+              src="https://github.com/nehasaipangallu/Bar-graph/blob/main/assets/inactive-user.svg?raw=true"
+              className="in-img"
+            />
           </span>
           <h6>34000</h6>
           <h6>Inactive Users</h6>
@@ -57,8 +60,8 @@ export default function InactiveUsersChart() {
           height={50.98}
           data={data}
           margin={{
-            top: 10,
-            right: 30,
+            top: 0,
+            right: 0,
             left: 0,
             bottom: 0,
           }}

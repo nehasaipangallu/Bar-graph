@@ -1,7 +1,7 @@
 .revenue {
   color: white;
-  height: 320px;
-  width:855.5px;
+  height: 300px;
+  width: 60%;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
@@ -11,4 +11,3 @@
 .revenue > .recharts-responsive-container .recharts-cartesian-grid-vertical {
   display: none;
 }
-

@@ -55,34 +55,33 @@ export default function ActiveUserChart() {
           <h6>34,000</h6>
           <h6>Total Active Users</h6>
         </div>
-        <div>
-          <AreaChart
-            width={307.8}
-            height={108}
-            data={data}
-            margin={{
-              top: 0,
-              right: 30,
-              left: 0,
-              bottom: 0,
-            }}
-            className="area-chart"
-          >
-            <Tooltip />
-            <defs>
-              <linearGradient id="colorusers" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#52BEF3" stopOpacity={0.8} />
-                <stop offset="95%" stopColor="#52BEF3" stopOpacity={0} />
-              </linearGradient>
-            </defs>
-            <Area
-              type="monotone"
-              dataKey="users"
-              stroke="#52BEF3"
-              fillOpacity={1}
-              fill="url(#colorusers)"
-            />
-          </AreaChart>
+        <div class="area-chart">
+          <ResponsiveContainer width="100%" height={80}>
+            <AreaChart
+              data={data}
+              margin={{
+                top: 0,
+                right: 0,
+                left: 0,
+                bottom: 0,
+              }}
+            >
+              <Tooltip />
+              <defs>
+                <linearGradient id="colorusers" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="#52BEF3" stopOpacity={0.8} />
+                  <stop offset="95%" stopColor="#52BEF3" stopOpacity={0} />
+                </linearGradient>
+              </defs>
+              <Area
+                type="monotone"
+                dataKey="users"
+                stroke="#52BEF3"
+                fillOpacity={1}
+                fill="url(#colorusers)"
+              />
+            </AreaChart>
+          </ResponsiveContainer>
         </div>
       </div>
     </div>
