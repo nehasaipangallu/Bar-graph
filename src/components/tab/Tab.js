@@ -39,7 +39,7 @@ export default function Tab() {
           title="Cloudwatch"
           className="tab-item"
          > 
-         <Cpuutilization></Cpuutilization>
+         {/* <Cpuutilization></Cpuutilization> */}
         </Tab>
         <Tab eventKey="optimization" title="Optimization" className="tab-item">
           <div class="d-flex flex-column tabs-item">
