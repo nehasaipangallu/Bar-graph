@@ -20,13 +20,13 @@ export default function Tab() {
       >
         <Tab eventKey="overview" title="Overview" className="tab-item">
           <div class="tabs-item d-flex flex-column overflow-hidden align-content-start">
-            <div class="overview-section-1 row overflow-hidden">
+            <div class="overview-section-1 row">
               <ActiveUserChart></ActiveUserChart>
               <InactiveUsersChart></InactiveUsersChart>
               <AppDownloads></AppDownloads>
               <AppAnalytics></AppAnalytics>
             </div>
-            <div class="overview-section-2 row overflow-hidden ">
+            <div class="overview-section-2 row ">
               <Revenue></Revenue>
               <SubscriptionAnalytics></SubscriptionAnalytics>
             </div>

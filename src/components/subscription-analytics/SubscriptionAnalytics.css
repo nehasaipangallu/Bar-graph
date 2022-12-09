@@ -1,9 +1,11 @@
 .subscription-analytics {
   width: 36%;
-  height: 450px;
+  height: 400px;
   color: white;
   border: 1px solid #979797;
   border-radius: 8px;
   background-color: #0f1642;
   padding: 24px;
+  margin-top: 20px;
+  margin-left: 2px;
 }
