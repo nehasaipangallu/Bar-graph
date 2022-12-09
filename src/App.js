@@ -3,6 +3,7 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fontsource/montserrat';
 import Header from './components/header/Header';
+import SideNavbar from './components/sidenavbar/SideNavbar';
 import ActiveUserChart from './components/active-user-chart/ActiveUserChart';
 
 import {
@@ -20,7 +21,9 @@ export default function App() {
       {/* chart */}
       {/* <HashRouter> */}
       <Header />
+      
       <Tab />
+      <SideNavbar />
       {/* </HashRouter> */}
     </div>
   );
