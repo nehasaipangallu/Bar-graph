@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
-import './UsageCost.css';
+import './Prediction.css';
+
 import {
   BarChart,
   Bar,
@@ -107,8 +108,8 @@ export default function UsageCost() {
           <XAxis dataKey="name" />
           <YAxis />
 
-          <Bar dataKey="pv" fill="#6F52ED" barSize={5} />
-          <Bar dataKey="uv" fill="#FF7A00" barSize={5} />
+          <Bar dataKey="pv" fill="#00C67B" barSize={5} />
+          <Bar dataKey="uv" fill="#FF5D8F" barSize={5} />
         </BarChart>
       </ResponsiveContainer>
     </div>

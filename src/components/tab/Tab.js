@@ -9,6 +9,8 @@ import SubscriptionAnalytics from '../subscription-analytics/SubscriptionAnalyti
 import AppAnalytics from '../app-analytics/AppAnalytics';
 import Revenue from '../revenue/Revenue';
 import UsageCost from '../optimization-tab/usage-cost/UsageCost';
+import Prediction from '../optimization-tab/predection/Prediction';
+import Cpuutilization from '../cloud-watch-tab/cpu-utilization/Cpuutilization';
 
 export default function Tab() {
   return (
@@ -36,12 +38,15 @@ export default function Tab() {
           eventKey="cloudwatch"
           title="Cloudwatch"
           className="tab-item"
-        ></Tab>
+         > 
+         {/* <Cpuutilization></Cpuutilization> */}
+        </Tab>
         <Tab eventKey="optimization" title="Optimization" className="tab-item">
           <div class="d-flex flex-column tabs-item">
             <UsageCost></UsageCost>
+            <Prediction></Prediction>
           </div>
-        </Tab>
+          </Tab>
       </Tabs>
     </div>
   );
