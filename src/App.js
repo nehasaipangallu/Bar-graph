@@ -19,12 +19,13 @@ export default function App() {
   return (
     <div>
       {/* chart */}
-      {/* <HashRouter> */}
-      <Header />
-      
-      <Tab />
-      <SideNavbar />
-      {/* </HashRouter> */}
+      <HashRouter>
+        <Header />
+        <div class="d-flex">
+          <SideNavbar />
+          <Tab />
+        </div>
+      </HashRouter>
     </div>
   );
 }

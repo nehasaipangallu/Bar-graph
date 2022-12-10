@@ -1,6 +1,8 @@
 .tabs {
   border: none;
   height: calc(100vh - 66px);
+  width: 100%;
+  margin: 16px;
 }
 
 .tabs .tabs-item {
