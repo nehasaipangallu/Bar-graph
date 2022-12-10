@@ -10,8 +10,6 @@
     "canvasjs": "1.8.3",
     "cdbreact": "^1.5.3",
     "chart.js": "4.0.1",
-    "igniteui-react-charts": "18.1.1",
-    "igniteui-react-core": "18.1.1",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-bootstrap": "2.6.0",

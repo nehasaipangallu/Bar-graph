@@ -34,19 +34,15 @@ export default function Tab() {
             </div>
           </div>
         </Tab>
-        <Tab
-          eventKey="cloudwatch"
-          title="Cloudwatch"
-          className="tab-item"
-         > 
-         {/* <Cpuutilization></Cpuutilization> */}
+        <Tab eventKey="cloudwatch" title="Cloudwatch" className="tab-item">
+          <Cpuutilization></Cpuutilization>
         </Tab>
         <Tab eventKey="optimization" title="Optimization" className="tab-item">
           <div class="d-flex flex-column tabs-item">
             <UsageCost></UsageCost>
             <Prediction></Prediction>
           </div>
-          </Tab>
+        </Tab>
       </Tabs>
     </div>
   );
