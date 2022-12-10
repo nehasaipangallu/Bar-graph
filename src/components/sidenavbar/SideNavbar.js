@@ -19,7 +19,7 @@ export default function SideNavbar() {
           overflow: 'scroll initial',
         }}
       >
-        <CDBSidebar textColor="#fff" backgroundColor="#333">
+        <CDBSidebar textColor="#fff" backgroundColor="#333" toggled={true}>
           <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
             <a
               href="/"
