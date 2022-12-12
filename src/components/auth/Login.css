@@ -1,0 +1,13 @@
+.auth-container {
+  background-color: #36385a;
+  width: 100%;
+  height: 100vh;
+}
+
+.auth-form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

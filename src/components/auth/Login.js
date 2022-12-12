@@ -1,7 +1,7 @@
 import React from 'react';
+import './Login.css';
 import { app, auth } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
-//import firebase from 'firebase/app';
 import {
   getAuth,
   signInWithPhoneNumber,
@@ -72,31 +72,33 @@ export default function Login() {
   }
 
   return (
-    <div>
-      <h2>Login Form</h2>
-      <form onSubmit={onSignInSubmit}>
-        <div id="sign-in-button"></div>
-        <input
-          type="number"
-          name="mobile"
-          placeholder="Mobile number"
-          required
-          onChange={handleChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
+    <div class="auth-container">
+      <div class="container auth-form">
+        <h2>Login Form</h2>
+        <form onSubmit={onSignInSubmit}>
+          <div id="sign-in-button"></div>
+          <input
+            type="number"
+            name="mobile"
+            placeholder="Mobile number"
+            required
+            onChange={handleChange}
+          />
+          <button type="submit">Send OTP</button>
+        </form>
 
-      <h2>Enter OTP</h2>
-      <form onSubmit={onSubmitOTP}>
-        <input
-          type="number"
-          name="otp"
-          placeholder="OTP Number"
-          required
-          onChange={handleChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
+        <h6>Enter OTP</h6>
+        <form onSubmit={onSubmitOTP}>
+          <input
+            type="number"
+            name="otp"
+            placeholder="OTP Number"
+            required
+            onChange={handleChange}
+          />
+          <button type="submit">Log In</button>
+        </form>
+      </div>
     </div>
   );
 }
