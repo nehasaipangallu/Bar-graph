@@ -5,6 +5,7 @@ import '@fontsource/montserrat';
 import Header from './components/header/Header';
 import SideNavbar from './components/sidenavbar/SideNavbar';
 import ActiveUserChart from './components/active-user-chart/ActiveUserChart';
+import Login from './components/auth/Login';
 
 import {
   Route,
@@ -20,11 +21,28 @@ export default function App() {
     <div>
       {/* chart */}
       <HashRouter>
-        <Header />
+        <Routes>
+          <Route exact path="/" element={<Login />}></Route>
+          <Route
+            exact
+            path="/dashboard"
+            element={
+              <div>
+                {' '}
+                <Header />
+                <div class="d-flex">
+                  <SideNavbar />
+                  <Tab />
+                </div>{' '}
+              </div>
+            }
+          ></Route>
+        </Routes>
+        {/* <Header />
         <div class="d-flex">
           <SideNavbar />
           <Tab />
-        </div>
+        </div> */}
       </HashRouter>
     </div>
   );
