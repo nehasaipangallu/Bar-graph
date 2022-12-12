@@ -19,7 +19,6 @@ import Tab from './components/tab/Tab';
 export default function App() {
   return (
     <div>
-      {/* chart */}
       <HashRouter>
         <Routes>
           <Route exact path="/" element={<Login />}></Route>
@@ -28,21 +27,15 @@ export default function App() {
             path="/dashboard"
             element={
               <div>
-                {' '}
                 <Header />
                 <div class="d-flex">
                   <SideNavbar />
                   <Tab />
-                </div>{' '}
+                </div>
               </div>
             }
           ></Route>
         </Routes>
-        {/* <Header />
-        <div class="d-flex">
-          <SideNavbar />
-          <Tab />
-        </div> */}
       </HashRouter>
     </div>
   );
