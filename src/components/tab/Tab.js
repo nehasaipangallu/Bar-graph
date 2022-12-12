@@ -11,6 +11,7 @@ import Revenue from '../revenue/Revenue';
 import UsageCost from '../optimization-tab/usage-cost/UsageCost';
 import Prediction from '../optimization-tab/predection/Prediction';
 import Cpuutilization from '../cloud-watch-tab/cpu-utilization/Cpuutilization';
+import Network from '../cloud-watch-tab/network-in-bytes/Network';
 
 export default function Tab() {
   return (
@@ -36,6 +37,7 @@ export default function Tab() {
         </Tab>
         <Tab eventKey="cloudwatch" title="Cloudwatch" className="tab-item">
           <Cpuutilization></Cpuutilization>
+          {/* <Network></Network> */}
         </Tab>
         <Tab eventKey="optimization" title="Optimization" className="tab-item">
           <div class="d-flex flex-column tabs-item">
