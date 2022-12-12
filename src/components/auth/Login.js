@@ -2,19 +2,16 @@ import React from 'react';
 import './Login.css';
 import { auth } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
-import {
-  getAuth,
-  signInWithPhoneNumber,
-  RecaptchaVerifier,
-} from 'firebase/auth';
+import { signInWithPhoneNumber, RecaptchaVerifier } from 'firebase/auth';
 
 export default function Login() {
   let navigate = useNavigate();
   function handleChange(e) {
-    const { name, value } = e.target;
+    //const { name, value } = e.target;
     // this.setState({
     //   [name]: value,
     // });
+    return;
   }
   function configureCaptcha() {
     auth.languageCode = 'in';
