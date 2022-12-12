@@ -12,7 +12,7 @@ const firebaseConfig = {
   projectId: 'soulipie',
   storageBucket: 'soulipie.appspot.com',
   messagingSenderId: '201876828788',
-  appId: '1:201876828788:web:c19120f57065b2ad7f9721',
+  appId: '1:201876828788:web:c19120f57065b2ad7f9721'
 };
 
 // Initialize Firebase
