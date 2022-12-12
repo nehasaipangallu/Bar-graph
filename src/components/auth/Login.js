@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import { app, auth } from '../../firebase';
+import { auth } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
 import {
   getAuth,
